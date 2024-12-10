@@ -11,6 +11,6 @@ PKG_RELEASE:=1
 LUCI_TITLE:=LuCI Support of PowerOff Router
 LUCI_PKGARCH:=all
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
